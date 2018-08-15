@@ -30,7 +30,7 @@ body {
 }
 
 #image {
-  width: 65%;
+  width: 70%;
   border: 5px solid #b8c3c7;
   border-radius: 3px;
 }
@@ -71,7 +71,7 @@ span {
     font-size: 20px;
   }
   #image {
-    width: 35%;
+    width: 50%;
   }
   h2 {
     font-size: 26px;
@@ -84,5 +84,11 @@ span {
   }
   .credit {
     font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #image {
+    width: 30%;
   }
 }
