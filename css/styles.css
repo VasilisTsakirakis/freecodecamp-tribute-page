@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: url("../images/robotsblur.jpg") repeat center;
+  background-size: cover;
+}
+
+/* Styling of infomation section*/
+
+.info {
+  position: relative;
+}
+
+#title {
+  font-size: 25px;
+}
+
+.about {
+  font-size: 16px;
+}
+
+#image {
+  width: 65%;
+  border: 5px solid #b8c3c7;
+  border-radius: 3px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+li {
+  margin: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.quote {
+  font-size: 20px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+/*Media queries*/
+
+@media screen and (min-width: 600px) {
+  #title {
+    font-size: 30px;
+  }
+  .about {
+    font-size: 20px;
+  }
+  #image {
+    width: 35%;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  #tribute-info {
+    font-size: 19px;
+  }
+  .quote {
+    font-size: 24px;
+  }
+  .credit {
+    font-size: 15px;
+  }
+}
