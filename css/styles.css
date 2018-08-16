@@ -29,8 +29,12 @@ body {
   font-size: 16px;
 }
 
+#img-div {
+  max-width: 100%;
+}
+
 #image {
-  width: 70%;
+  width: 80%;
   border: 5px solid #b8c3c7;
   border-radius: 3px;
 }
@@ -70,9 +74,6 @@ span {
   .about {
     font-size: 20px;
   }
-  #image {
-    width: 70%;
-  }
   h2 {
     font-size: 26px;
   }
@@ -89,6 +90,6 @@ span {
 
 @media screen and (min-width: 1000px) {
   #image {
-    width: 30%;
+    width: 35%;
   }
 }
